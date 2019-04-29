@@ -3,9 +3,8 @@ Comparador-años-jugando-JuegoDePruebas.
 
 
 <pre>
-	
-		
-		# coding : utf 8
+
+# coding : utf 8
 # python 3
 
 anyo_actual = 2019
@@ -17,9 +16,7 @@ if anyo_actual <= anyo_cualquiera :
 else:
     print("El año que ha utilizado es menor al año actual")  
 
-    
-		
-	
+ 	
 </pre>
 
 
