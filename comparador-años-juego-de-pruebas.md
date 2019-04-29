@@ -28,6 +28,7 @@ else:
 ```
 
 | Casos a probar | Resultado esperado |
+| -------------- | ------------------ |
 | Año actual-Año cualquiera | Respuesta |
 | 2019-2020 | Falta 1 año para poder llegar a 2019 |
 | 2019-2019 | Es el mismo año, por favor, cambia el número |
