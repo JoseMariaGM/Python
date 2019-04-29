@@ -1,5 +1,5 @@
 
-<h1> **Comparador-años-jugando-JuegoDePruebas.**
+Comparador-años-jugando-JuegoDePruebas.
 
 
 <pre>
