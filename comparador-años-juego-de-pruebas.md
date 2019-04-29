@@ -3,7 +3,7 @@ Comparador-años-jugando-JuegoDePruebas.
 
 
 <pre>
-		```
+	
 		
 		# coding : utf 8
 # python 3
@@ -19,13 +19,12 @@ else:
 
     
 		
-		```
+	
 </pre>
 
 
 ### Tabla
 
-```
 
 | Casos a probar | Resultado esperado |
 | -------------- | ------------------ |
@@ -36,5 +35,4 @@ else:
 
 
 
-```
 
