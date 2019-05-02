@@ -4,17 +4,26 @@ Comparador-años-jugando-JuegoDePruebas.
 
 <pre>
 
-# coding : utf 8
+# coding utf8
 # python 3
 
-anyo_actual = 2019
-anyo_cualquiera = 2020
-resultado = anyo_cualquiera - anyo_actual
-# ¿Años que han pasado entre los dos?
-if anyo_actual <= anyo_cualquiera :
-    print("De" , anyo_cualquiera , "a" , anyo_actual , "hay 1 año/s de diferencia")
-else:
-    print("El año que ha utilizado es menor al año actual")  
+anyo_actual = int(input(" Año en el que estamos : "))
+anyo_cualquiera = int(input("Pruebe un año cualquiera : "))
+resultado = anyo_actual - anyo_cualquiera
+
+if (anyo_actual == anyo_cualquiera):
+    print("El año que ha utilizado es el mismo.")
+elif (resultado<0 and abs(resultado)==1):
+    print("Para poder llegar al año" , anyo_cualquiera , "falta/n" , abs(resultado) , "año/s")
+elif (resultado>0 and abs(resultado)==1):
+    print("Hace", abs(resultado) , "año que llegamos a" , anyo_cualquiera )
+elif (resultado<0 and abs(resultado)!=1):
+    print("Para llegar a " , anyo_cualquiera , "falta/n" , abs(resultado) , " año/s")
+elif (resultado>0 and abs(resultado)!=1):
+    print("Hace" , abs(resultado) , "año/s que llegamos a", anyo_cualquiera)
+
+
+
 
  	
 </pre>
@@ -26,9 +35,9 @@ else:
 | Casos a probar | Resultado esperado |
 | -------------- | ------------------ |
 | Año actual-Año cualquiera | Respuesta |
-| 2019-2020 | Falta 1 año para poder llegar a 2019 |
+| 2019-2020 | Falta 1 o mas años para poder llegar a 2019 |
 | 2019-2019 | Es el mismo año, por favor, cambia el número |
-| 2019-2018 | El número es más pequeño que el própio año actual, utilice uno superior. |
+| 2019-2018 | Hemos llegado a ese año hace 1 o más años. |
 
 
 
