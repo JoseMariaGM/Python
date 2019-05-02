@@ -1,4 +1,4 @@
-Comparador-años-en-dias.
+Comparador-años-en-meses.
 
 
 <pre>
