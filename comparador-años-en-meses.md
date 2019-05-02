@@ -33,6 +33,7 @@ elif (resultado>0 and abs(resultado)!=1):
 | 2 años(24 meses) más | Desde tal año ya han pasado/faltan 24 meses  |
 
 
+<pre>
 
 ## meses_alternativo
 # coding utf8
@@ -52,3 +53,5 @@ elif (resultado<0 and abs(resultado)!=1):
     print("Para llegar a " , mes_cualquiera , "falta/n" , abs(resultado) , "mes/es ")
 elif (resultado>0 and abs(resultado)!=1):
     print("Hace 1 año que llegamos a", mes_cualquiera)
+
+</pre>
