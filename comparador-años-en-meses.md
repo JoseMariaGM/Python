@@ -33,9 +33,10 @@ elif (resultado>0 and abs(resultado)!=1):
 | 2 años(24 meses) más | Desde tal año ya han pasado/faltan 24 meses  |
 
 
+
+## Meses_alternativo
 <pre>
 
-## meses_alternativo
 # coding utf8
 # python 3
 
