@@ -35,9 +35,11 @@ elif (resultado>0 and abs(resultado)!=1):
 | Casos a probar | Resultado esperado |
 | -------------- | ------------------ |
 | Año actual-Año cualquiera | Respuesta |
-| 2019-2020 | Falta 1 o mas años para poder llegar a 2019 |
+| 2019-2020 | Falta 1 año para poder llegar a 2020 |
 | 2019-2019 | Es el mismo año, por favor, cambia el número |
-| 2019-2018 | Hemos llegado a ese año hace 1 o más años. |
+| 2019-2018 | Hemos llegado a ese año hace 1 año |
+| 2019-2021 | Llegaremos a ese año dentro de 2 años |
+| 2019-2017 | Hemos llegado a ese año hace 2 años |
 
 
 
