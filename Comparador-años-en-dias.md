@@ -4,18 +4,20 @@ Comparador-años-en-meses.
 <pre>
 
 # coding : utf8
-# python 3
-Dia1 = 14
-Dia2 = 18
-resultado = Dia2-Dia1
-resultado2 = Dia1-Dia2
-#Días para llegar
-if  Dia1 <= Dia2 :
-    print("Faltan" , resultado ,  "días para llegar al dia 18")
-else:
-    Dia2 <= Dia1 :
-    print("Faltan", resultado2 , "días para llegar al dia actual")
-    
+año_actual = int(input("Número del año en el que estamos : "))
+año_cualquiera = int(input("Número de un año cualquiera : "))
+resultado = (año_actual - año_cualquiera)*365
+
+if (año_actual == año_cualquiera):
+    print("El año que ha utilizado es el mismo.")
+elif (resultado<0 and abs(resultado)==1):
+    print("Para poder llegar al año de" , año_cualquiera , "faltan" , abs(resultado) , "dias")
+elif (resultado>0 and abs(resultado)==1):
+    print("Hace" , abs(resultado)," dias que llegamos a " , año_cualquiera)
+elif (resultado<0 and abs(resultado)!=1):
+    print("Para llegar a " , año_cualquiera , "faltan" , abs(resultado) , "dias")
+elif (resultado>0 and abs(resultado)!=1):
+    print("Hace" , abs(resultado) , "dias que llegamos a", año_cualqu
 </pre>
 
 
@@ -24,7 +26,8 @@ else:
 
 | Casos a probar | Resultado esperado |
 | -------------- | ------------------ |
-| Dia1-Dia2 | Respuesta |
-| Dia27-Dia27 | El dia es el mismo, por favor , inténtelo con otro número |
-| Dia27-Dia28  | Falta un día para llegar al día 28 |
-| Dia26-Dia27 | Falta un día pra llegar al día 26 |
+| De años a dias | Respuesta |
+| Año 2019-2020  | Han de pasar 365 dias para llegar a 2020 |
+| Año 2019-2018  | Ya han pasado 365 días desde 2018 |
+| Año 2019-2019  | No ha pasado nada de tiempo, ponga otro año |
+| Año 2019-2021  | **Faltan/Han pasado** 730 días para llegar a 2021 |
