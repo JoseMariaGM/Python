@@ -1,5 +1,4 @@
 <pre>
-
 # coding utf8
 # python 3
 
@@ -7,9 +6,9 @@ par = int(input("Introduzca un número :")) % 2
 impar = 1
 
 if (par == 0):
-    print(" El número será par")
+    print("Que bonito número par")
 else:
-    print("El número será impar")
+    print("Que número más vulgar")
    
 </pre>
 
