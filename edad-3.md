@@ -4,7 +4,6 @@
 # python 3
 
 par = int(input("Introduzca un número :")) % 2 
-impar = 1
 
 if (par == 0):
     print("Que bonito número par")
