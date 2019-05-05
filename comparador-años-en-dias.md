@@ -5,20 +5,20 @@
 
 #coding utf8
 #python 3
-año_actual = int(input("Número del año en el que estamos : "))
-año_cualquiera = int(input("Número de un año cualquiera : "))
-resultado = (año_actual - año_cualquiera)*365
+anyo_actual = int(input("Número del año en el que estamos : "))
+anyo_cualquiera = int(input("Número de un año cualquiera : "))
+resultado = (anyo_actual - anyo_cualquiera)*365
 
-if (año_actual == año_cualquiera):
+if (anyo_actual == anyo_cualquiera):
     print("El año que ha utilizado es el mismo.")
 elif (resultado<0 and abs(resultado)==1):
-    print("Para poder llegar al año de" , año_cualquiera , "faltan" , abs(resultado) , "dias")
+    print("Para poder llegar al año de" , anyo_cualquiera , "faltan" , abs(resultado) , "dias")
 elif (resultado>0 and abs(resultado)==1):
-    print("Hace" , abs(resultado)," dias que llegamos a " , año_cualquiera)
+    print("Hace" , abs(resultado) , "dias que llegamos a " , anyo_cualquiera)
 elif (resultado<0 and abs(resultado)!=1):
-    print("Para llegar a " , año_cualquiera , "faltan" , abs(resultado) , "dias")
+    print("Para llegar a " , anyo_cualquiera , "faltan" , abs(resultado) , "dias")
 elif (resultado>0 and abs(resultado)!=1):
-    print("Hace" , abs(resultado) , "dias que llegamos a", año_cualquiera)
+    print("Hace" , abs(resultado) , "dias que llegamos a" , anyo_cualquiera)
  	
 </pre>
 
