@@ -13,11 +13,11 @@ if (año_actual == año_cualquiera):
 elif (resultado<0 and abs(resultado)==1):
     print("Para poder llegar al año de" , año_cualquiera , "faltan" , abs(resultado) , "meses")
 elif (resultado>0 and abs(resultado)==1):
-    print("Hace" , abs(resultado)," meses que llegamos a " , año_cualquiera)
+    print("Hace" , abs(resultado) , " meses que llegamos a " , año_cualquiera)
 elif (resultado<0 and abs(resultado)!=1):
     print("Para llegar a " , año_cualquiera , "faltan" , abs(resultado) , "meses")
 elif (resultado>0 and abs(resultado)!=1):
-    print("Hace" , abs(resultado) , "mese que llegamos a", año_cualquiera)
+    print("Hace" , abs(resultado) , "meses que llegamos a" , anyo_cualquiera)
 </pre>
 
 
