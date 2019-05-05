@@ -1,5 +1,5 @@
 <pre>
-
+    
 # coding utf8
 # python 3
 
@@ -8,13 +8,10 @@ anyos=int(input("¿Cuántos años tienes? :"))
 anyo_minimo = 15
 anyo_máximo = 17
 
-if (anyos < 15):
-    print(" Eres menor que 15 años, no puedes pasar a la sesión de tarde")
-if (anyos > 17):
-    print("Eres mayor que 17 años, no puedes pasar a la sesión de tarde")
-if (anyos => 15 and <= 17):
+if (anyos >= 15 and anyos <= 17):
     print("Tienes entre 15 y 17 años, puedes pasar a la sesión de tarde")
-
+if not (anyos >= 15 and anyos <= 17):
+    print("No puedes entrar a la sesion de tarde.")
 </pre>
 
 
