@@ -3,6 +3,8 @@
 
 <pre>
 
+#coding utf8
+#python 3
 año_actual = int(input("Número del año en el que estamos : "))
 año_cualquiera = int(input("Número de un año cualquiera : "))
 resultado = (año_actual - año_cualquiera)*365
