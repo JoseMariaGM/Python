@@ -1,8 +1,7 @@
-   
+<pre>
 #coding utf8
 #python 3
 
-<pre>
 anyos = int(input("¿Cuántos años tienes? :"))
 
 if (anyos >= 15 and anyos <= 17):
