@@ -34,27 +34,3 @@ elif (resultado>0 and abs(resultado)!=1):
 | 0 años de diferencia | Los años continuan siendo los mismos |
 | 2 años(24 meses) más | Desde tal año ya han pasado/faltan 24 meses  |
 
-
-
-## Meses_alternativo
-<pre>
-
-# coding utf8
-# python 3
-
-mes_actual = int(input("Número del mes en el que estamos : "))
-mes_cualquiera = int(input("Número de un mes cualquiera : "))
-resultado = mes_actual - mes_cualquiera
-
-if (mes_actual == mes_cualquiera):
-    print("El mes que ha utilizado es el mismo.")
-elif (resultado<0 and abs(resultado)==1):
-    print("Para poder llegar al mes de" , mes_cualquiera , "falta/n" , abs(resultado) , "mes/es")
-elif (resultado>0 and abs(resultado)==1):
-    print("Hace 1 mes que llegamos a " , mes_cualquiera)
-elif (resultado<0 and abs(resultado)!=1):
-    print("Para llegar a " , mes_cualquiera , "falta/n" , abs(resultado) , "mes/es ")
-elif (resultado>0 and abs(resultado)!=1):
-    print("Hace 1 año que llegamos a", mes_cualquiera)
-
-</pre>
