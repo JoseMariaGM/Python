@@ -5,9 +5,6 @@
 
 anyos=int(input("¿Cuántos años tienes? :"))
 
-anyo_minimo = 15
-anyo_máximo = 17
-
 if (anyos >= 15 and anyos <= 17):
     print("Tienes entre 15 y 17 años, puedes pasar a la sesión de tarde")
 if not (anyos >= 15 and anyos <= 17):
