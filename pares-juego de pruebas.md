@@ -1,5 +1,6 @@
-# coding utf8
-# python 3
+<pre>
+#coding utf8
+#python 3
 
 
 numero = int(input("Introduzca un número :"))
@@ -11,7 +12,7 @@ elif (numero % 2 > 0):
     print("El número es impar")
 else:
     print("El número será par")
-    
+</pre>
 
 | Casos a probar | Resultado esperado |
 | -------------- | ------------------ |
