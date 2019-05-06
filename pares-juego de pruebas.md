@@ -13,11 +13,3 @@ elif (numero % 2 > 0):
 else:
     print("El número será par")
 </pre>
-
-| Casos a probar | Resultado esperado |
-| -------------- | ------------------ |
-| Numero | Respuesta |
-| 0 | El número es 0|
-| <0  | Negativo |
-| >0 % 2 | Residuo = 1 -> impar |
-| >0 % 2 | Residuo = 0 -> par |  
