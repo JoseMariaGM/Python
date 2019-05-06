@@ -38,7 +38,8 @@
 | 0 años de diferencia | Los años continuan siendo los mismos |
 | 2 años(24 meses) más | Desde tal año ya han pasado/faltan 24 meses  |
 
-# Edad-1
+# Edad-1_juegodepruebas
+
 | Casos a probar | Resultado esperado |
 | -------------- | ------------------ |
 | Edades | Respuesta |
@@ -46,7 +47,7 @@
 | 15 , 16 y 17 | Tienes la edad permitida, puedes pasar |
 | > 17 | Tienes más edad de lo permitido |
 
-# Edad-2
+# Edad-2_juegodepruebas
 
 | Casos a probar | Resultado esperado |
 | -------------- | ------------------ |
@@ -55,10 +56,34 @@
 | 17 - 23  | Tienes la edad permitida, puedes pasar |
 | > 24 | Tienes más edad de lo permitido |
 
-# Edad-3
+# Edad-3_juegodepruebas
 
 | Casos a probar | Resultado esperado |
 | -------------- | ------------------ |
 | edades | Respuesta |
 | 2,4,6,8,10... % 2| Par |
 | 1,3,5,7,9,11... % 2  | Impar |
+
+# Pares-juegodepruebas
+| Casos a probar | Resultado esperado |
+| -------------- | ------------------ |
+| Numero | Respuesta |
+| 0 | El número es 0|
+| <0  | Negativo |
+| >0 % 2 | Residuo = 1 -> impar |
+| >0 % 2 | Residuo = 0 -> par |  
+
+# Condició-chunga_juegosdepruebas
+| Casos a probar | Resultado esperado |
+| -------------- | ------------------ |
+| Resultado | Respuesta |
+| -30 | Condició correcta |
+| -11 | Condició incorrecta |
+| -10 | Condició correcta |
+| -6  | Condició correcta |
+| -5 | Condició incorrecta |
+| 0 | Condició correcta |
+| 6 | Condició correcta |
+| 40 | Condicio correcta |
+| 41 | Condició incorrecta |
+| 234 | Condició incorrecta |
