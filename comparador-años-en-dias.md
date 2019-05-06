@@ -23,14 +23,3 @@ elif (resultado>0 and abs(resultado)!=1):
 </pre>
 
 
-### Tabla
-
-
-| Casos a probar | Resultado esperado |
-| -------------- | ------------------ |
-| Años en meses | Respuesta |
-| 1 año menos(12 meses) | Faltan 12 meses para llegar a tal año |
-| 2 años(24 meses) menos | Faltan 24 meses para llegar a tal año |
-| 0 años de diferencia | Los años continuan siendo los mismos |
-| 2 años(24 meses) más | Desde tal año ya han pasado/faltan 24 meses  |
-
