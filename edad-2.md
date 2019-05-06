@@ -11,10 +11,5 @@ if not (anyos >= 17 and anyos <= 23):
     
 </pre>
 
-| Casos a probar | Resultado esperado |
-| -------------- | ------------------ |
-| edades | Respuesta |
-| < 16| Eres más pequeño de lo mínimo, no puedes pasar |
-| 17 - 23  | Tienes la edad permitida, puedes pasar |
-| > 24 | Tienes más edad de lo permitido |
+
 
